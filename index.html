@@ -7,6 +7,7 @@
     <title>hw2.2_background-image</title>
     <link rel="icon" type="image/x-icon" href="./images/fffavicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Pacifico&family=Suwannaphum&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital@1&family=Libre+Baskerville&family=Pacifico&family=Source+Sans+Pro:wght@200&family=Suwannaphum&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -14,20 +15,42 @@
         <div class="header__title">Background</div>
         <div class="header__logo"></div>
         <div class="header__nav">
-            <div class="header__nav_item">background-attachment</div>
-            <div class="header__nav_item">background-color</div>
-            <div class="header__nav_item">background-image </div>
-            <div class="header__nav_item">background-position</div>
-            <div class="header__nav_item">background-repeat</div>
-            <div class="header__nav_item_inherit">inherit</div>
+            <form action="https://developer.mozilla.org/ru/docs/Web/CSS/background-image" target="_blank">
+                <button class="header__nav_button">background-image</button></form>
+            <form action="https://developer.mozilla.org/ru/docs/Web/CSS/background-clip" target="_blank">
+                <button class="header__nav_button">background-clip</button></form>
+            <form action="https://developer.mozilla.org/ru/docs/Web/CSS/background-attachment" target="_blank">
+                <button class="header__nav_button">background-attachment</button></form>
+            <form action="https://developer.mozilla.org/ru/docs/Web/CSS/background-color" target="_blank">
+                <button class="header__nav_button">background-color</button></form>
+            <form action="https://developer.mozilla.org/ru/docs/Web/CSS/background-position" target="_blank">
+                <button class="header__nav_button">background-position</button></form>
+            <form action="https://developer.mozilla.org/ru/docs/Web/CSS/background-repeat" target="_blank">
+                <button class="header__nav_button">background-repeat</button></form>
+            <form action="https://developer.mozilla.org/ru/docs/Web/CSS/background-origin" target="_blank">
+                <button class="header__nav_button">background-origin</button></form>
         </div>
     </header>
 
     <main>
-        <article>Свойство CSS
-            <span class="article__bold">background-image</span>
-            устанавливает одно или несколько фоновых изображений для элемента. Изображения рисуются в слоях контекстов наложения одно поверх другого. Первый слой выводится так, чтобы он был ближе всего к пользователю. Универсальное свойство background позволяет установить одновременно до пяти характеристик фона. Значения могут идти в любом порядке, браузер сам определит, какое из них соответствует нужному свойству. Для подробного ознакомления смотрите информацию о каждом свойстве отдельно. В CSS3 допустимо указывать параметры сразу нескольких фонов, перечисляя их через запятую.
-        </article>
+        <section class="main__section_card">
+            <div>Свойство CSS <span>background-image</span> устанавливает одно или несколько фоновых изображений для элемента. Изображения рисуются в слоях контекстов наложения одно поверх другого. Первый слой выводится так, чтобы он был ближе всего к пользователю. Универсальное свойство background позволяет установить одновременно до пяти характеристик фона. Значения могут идти в любом порядке, браузер сам определит, какое из них соответствует нужному свойству. Для подробного ознакомления смотрите информацию о каждом свойстве отдельно. В CSS3 допустимо указывать параметры сразу нескольких фонов, перечисляя их через запятую.</div>
+            <div>Свойство CSS <span>background-clip</span> определяет как цвет фона или фоновое изображение будут выводиться под границами блока.
+                Если фоновое изображение или цвет не заданы, это свойство будет иметь визуальный эффект, только если у границы есть прозрачные области или частично непрозрачные области (из-за border-style (en-US) или border-image (en-US)); в противном случае граница скрывает разницу.</div>
+            <div>Если указано background-image, CSS свойство <span>background-attachment</span> определяет, является ли позиция этого изображения фиксированной в области просмотра, или прокручивается вместе с содержащим его блоком.</div>
+            <div>CSS-свойство <span>background-color</span> CSS устанавливает цвет фона элемента.</div>
+            <div>CSS свойство <span>background-position </span>устанавливает начальную позицию для каждого фонового изображения. Положение относительно уровня положения, установленного background-origin.</div>
+            <div>Свойство <span>background-repeat </span>устанавливает, как фоновые изображения будет повторяться. Они могут повторяться по горизонтальной и вертикальной оси или не повторяться вовсе.</div>
+            <div>CSS свойство <span>background-origin </span>устанавливает область расположения фона. Другими словами, оно устанавливает исходную позицию изображения, установленную с помощью свойства background-image.</div>
+        </section>
+
+        <section class="main__section_rectangle">
+            <div class="main__section_rectangle1"></div>
+            <div class="main__section_rectangle2"></div>
+            <div class="main__section_rectangle3"></div>
+            <div class="main__section_rectangle4"></div>
+            <div class="main__section_rectangle5"></div>
+        </section>
     </main>
 
 </body>
