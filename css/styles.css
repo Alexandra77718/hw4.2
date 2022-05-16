@@ -41,9 +41,9 @@ header {
     background: linear-gradient(90deg, rgba(75,61,51,0.9023984593837535) 35%, rgba(156,197,193,1) 68%);
 }
 
-.header__nav_item, .header__nav_item_inherit {
-    width: 164px;
-    height: 60px;
+.header__nav_button {
+    width: 173px;
+    height: 67px;
     background-color: rgba(86, 86, 156, 0.367);
     border-radius: 5%;
     color: aliceblue;
@@ -51,23 +51,87 @@ header {
     font-size: 25px;
 }
 
-.header__nav_item_inherit {
-    line-height: 60px;
+.header__nav_button:hover {
+    width: 178px;
+    height: 72px;
+    box-shadow: 1px black;
+    background-color: rgba(249, 175, 15, 0.552);
+    color: aliceblue;
+}
+.header__nav_button:active {
+    width: 173px;
+    height: 67px;
+    box-shadow: 1px black;
+    background-color: rgba(100, 143, 216, 0.788);
+    color: aliceblue;
 }
 
-article {
-    width: 90%;
-    margin: 80px auto 0;
+section {
     font-family: 'Suwannaphum', serif;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-    color: rgb(17, 17, 17);
-    /* background: linear-gradient(90deg, rgba(156,197,193,1) 68%), rgba(75,61,51,0.9023984593837535) 35%; */
-    background-color: rgba(73, 73, 96, 0.22);
 }
 
-.article__bold {
+.section__bold-text {
     font-size: 35px;
     color: rgb(40, 99, 193);
+}
+
+main {
+    margin-top: 80px;
+    height: 3000px;
+    background-image: url(../images/background_main.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    /* background-position: 0px 280px; */
+}
+
+.main__section_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main__section_card > div {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 24px;
+    width: 500px;
+    background-color: rgba(252, 225, 189, 0.788);
+    border: 2px rgb(8, 8, 8);
+    border-radius: 10px;
+    margin: 30px 44px 0;
+    padding: 10px;
+}
+.main__section_card > div > span {
+    font-weight: 600;
+}
+
+.main__section_rectangle {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main__section_rectangle > div {
+    width: 550px;
+    height: 70px;
+    margin: 2px 10px 3px 50px;
+    background-image: url(../images/rectangle.webp);
+    background-size: 100%;
+}
+.main__section_rectangle2 {
+    background-position: 0px -85px;
+}
+
+.main__section_rectangle3 {
+    background-position: 0px -160px;
+}
+
+.main__section_rectangle4 {
+    background-position: 0px -235px;
+}
+
+.main__section_rectangle5 {
+    background-position: 0px -310px;
 }
 
